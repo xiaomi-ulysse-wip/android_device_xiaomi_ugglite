@@ -28,22 +28,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Inherit from ulysse-common
 $(call inherit-product, device/xiaomi/ulysse-common/ulysse.mk)
 
-# A/B
-AB_OTA_UPDATER := true
-
-AB_OTA_PARTITIONS += \
-    boot \
-    system
-
-AB_OTA_POSTINSTALL_CONFIG += \
-    RUN_POSTINSTALL_system=true \
-    POSTINSTALL_PATH_system=system/bin/otapreopt_script \
-    FILESYSTEM_TYPE_system=ext4 \
-    POSTINSTALL_OPTIONAL_system=true
-
-PRODUCT_PACKAGES += \
-    otapreopt_script
-
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
