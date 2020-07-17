@@ -23,6 +23,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Inherit from ulysse-common
 $(call inherit-product, device/xiaomi/ulysse-common/ulysse.mk)
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.qcom.early_boot.sh
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
