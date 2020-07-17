@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/xiaomi/ugg/ugg-vendor.mk)
+$(call inherit-product, vendor/xiaomi/ugglite/ugglite-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Overlay
@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-gf.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-gf.kl
 
 # Properties
--include device/xiaomi/ugg/prop.mk
+-include device/xiaomi/ugglite/prop.mk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
