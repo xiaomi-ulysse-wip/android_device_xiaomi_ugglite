@@ -21,15 +21,9 @@ DEVICE_PATH := device/xiaomi/ugglite
 # Kernel
 TARGET_KERNEL_CONFIG := ugglite_defconfig
 
-# HIDL
-DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
-
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 10332634112 # 10332650496 - 16384
 BOARD_VENDORIMAGE_PARTITION_SIZE   := 536870912
-
-# Sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/ugglite/BoardConfigVendor.mk
