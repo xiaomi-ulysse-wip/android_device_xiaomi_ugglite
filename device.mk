@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/xiaomi/ugglite/ugglite-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/ugglite/ugglite-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Overlay
