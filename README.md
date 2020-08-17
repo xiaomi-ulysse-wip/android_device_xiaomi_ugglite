@@ -1,4 +1,4 @@
-# Device Tree for Xiaomi Redmi Note 5A Prime (ugg)
+# Device Tree for Xiaomi Redmi Note 5A Lite (ugglite)
 
 ## Spec Sheet
 

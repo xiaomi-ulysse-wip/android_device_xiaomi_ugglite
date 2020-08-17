@@ -14,13 +14,13 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ugg.mk \
-    $(LOCAL_DIR)/ancient_ugg.mk \
-    $(LOCAL_DIR)/aosp_ugg.mk \
-    $(LOCAL_DIR)/aicp_ugg.mk \
-    $(LOCAL_DIR)/aosip_ugg.mk \
-    $(LOCAL_DIR)/arrow_ugg.mk \
-    $(LOCAL_DIR)/bootleg_ugg.mk \
-    $(LOCAL_DIR)/du_ugg.mk \
-    $(LOCAL_DIR)/rr_ugg.mk \
-    $(LOCAL_DIR)/xtended_ugg.mk
+    $(LOCAL_DIR)/lineage_ugglite.mk \
+    $(LOCAL_DIR)/ancient_ugglite.mk \
+    $(LOCAL_DIR)/aosp_ugglite.mk \
+    $(LOCAL_DIR)/aicp_ugglite.mk \
+    $(LOCAL_DIR)/aosip_ugglite.mk \
+    $(LOCAL_DIR)/arrow_ugglite.mk \
+    $(LOCAL_DIR)/bootleg_ugglite.mk \
+    $(LOCAL_DIR)/du_ugglite.mk \
+    $(LOCAL_DIR)/rr_ugglite.mk \
+    $(LOCAL_DIR)/xtended_ugglite.mk
