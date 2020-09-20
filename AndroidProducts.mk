@@ -14,13 +14,14 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ugglite.mk \
-    $(LOCAL_DIR)/ancient_ugglite.mk \
-    $(LOCAL_DIR)/aosp_ugglite.mk \
     $(LOCAL_DIR)/aicp_ugglite.mk \
+    $(LOCAL_DIR)/ancient_ugglite.mk \
     $(LOCAL_DIR)/aosip_ugglite.mk \
+    $(LOCAL_DIR)/aosp_ugglite.mk \
     $(LOCAL_DIR)/arrow_ugglite.mk \
     $(LOCAL_DIR)/bootleg_ugglite.mk \
     $(LOCAL_DIR)/du_ugglite.mk \
+    $(LOCAL_DIR)/lineage_ugglite.mk \
+    $(LOCAL_DIR)/pixeldust_ugglite.mk \
     $(LOCAL_DIR)/rr_ugglite.mk \
     $(LOCAL_DIR)/xtended_ugglite.mk
