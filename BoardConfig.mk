@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/xiaomi/ugglite
 
+# Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 10332634112 # 10332650496 - 16384
 BOARD_VENDORIMAGE_PARTITION_SIZE   := 536870912
